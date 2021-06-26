@@ -309,6 +309,9 @@ a.site_btn.first_btn:hover {
     font-size: 16px;
     position: relative;
 }
+.footer_menu li a:hover {
+    color: #d4cda0;
+}
 .footer_menu li a:after {
     content: "\f715";
     font-family: "Font Awesome 5 Pro";
