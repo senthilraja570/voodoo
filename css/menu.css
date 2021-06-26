@@ -1,0 +1,523 @@
+
+.menu {
+    font-family: 'Futura Std';
+ }
+ .pushmenu ul {
+     /* display: inline; */
+     
+     margin: 0;
+     padding: 0px;
+     list-style: none;
+     text-align: center;
+ }
+ .last_menu a {
+     margin-right: 2px !important;
+ }
+ .pushmenu ul li {
+     position: relative;
+     float: left;
+     cursor: pointer;
+     -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+     text-align: center;
+ }
+ .pushmenu ul li a {
+     margin: 0px 1px;
+     padding: 0px;
+     display: block;
+    font-family: 'Futura Std';
+ }
+ .pushmenu ul li a {
+     color: #ffffff;
+     font-size: 15px;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+     font-weight: 400;
+     padding-right: 13px;
+     padding-left: 13px;
+     text-decoration: none;
+     padding: 10px 21px;
+     border-radius: 4px;
+ }
+ .pushmenu ul li ul {
+     padding: 0;
+     position: absolute;
+     top: 25px;
+     z-index: 9;
+     text-align: left;
+     left: 13px;
+     width: 230px;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     box-shadow: none;
+     display: none;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-transiton: opacity 0.2s;
+     -moz-transition: opacity 0.2s;
+     -ms-transition: opacity 0.2s;
+     -o-transition: opacity 0.2s;
+     - transition: opacity 0.2s;
+     background: #ffffff;
+ }
+ .pushmenu ul li ul li {
+     float: none;
+     margin-top: 2px;
+     display: block;
+     border-top: 1px solid #fff;
+ }
+ .pushmenu ul li ul li a {
+     display: inline-block;
+     padding: 5px 5px;
+     text-align: left;
+     font-size: 13px;
+    font-family: 'Futura Std';
+ }
+ .pushmenu ul li ul li ul {
+     padding: 0;
+     position: absolute;
+     top: 0px;
+     text-align: left;
+     left: 293px;
+     width: 293px;
+     -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+     box-shadow: none;
+     display: none;
+     opacity: 0;
+     visibility: hidden;
+     -webkit-transiton: opacity 0.2s;
+     -moz-transition: opacity 0.2s;
+     -ms-transition: opacity 0.2s;
+     -o-transition: opacity 0.2s;
+     transition: opacity 0.2s;
+ }
+ .pushmenu ul li ul li a {
+     background-color: #fb9600;
+     display: block;
+     padding: 10px 10px;
+     margin: 0px !important;
+     color: #1c0707;
+    font-family: 'Futura Std';
+     margin: 0px;
+     transition-duration: 1s;
+ }
+ .pushmenu ul li ul li a:hover {
+     background-color: #8cc440;
+     transition-duration: 1s;
+ }
+ .pushmenu ul li ul li a {
+     color: #fff !important;
+ }
+ .pushmenu ul li ul li a:hover {
+     color: #fff !important
+ }
+ .ie8 .pushmenu ul li a.active {
+     color: #a0a0a0;
+ }
+ .ie8 .pushmenu ul li ul li ul {
+     opacity: 1;
+     visibility: hidden;
+     display: none !important;
+ }
+ .ie8 .pushmenu ul li ul li a:hover {
+     color: #0c0c22;
+ }
+ .ie8 .pushmenu ul li ul li:hover ul {
+     display: block !important;
+     opacity: 1;
+     visibility: visible;
+ }
+ .ie8 .pushmenu ul li:hover ul {
+     display: block;
+     opacity: 1;
+     visibility: visible;
+ }
+ .ie8 .pushmenu ul li:hover ul {
+     display: block;
+     opacity: 1;
+     visibility: visible;
+ }
+ .ie8 .pushmenu ul li ul li:hover ul {
+     display: block !important;
+     opacity: 1;
+     visibility: visible;
+ }
+ .get_btn a {
+     color: #7f8c9b !important;
+ }
+ .get_btn a {
+     padding-right: 0px !important;
+     margin-right: 0px !important;
+ }
+ /*media query begin*/
+ 
+ @media screen and (min-width: 1199px) {
+     .pushmenu ul li.active a span,
+     nav .pushmenu ul li.current-menu-item a span {
+         color: #ffffff;
+         border-bottom:3px solid #ec0000;
+     }
+     .pushmenu ul li:hover a span {
+       color: #ffffff;
+       border-bottom:3px solid #ec0000;
+     }
+     .pushmenu ul li:hover ul li a,
+     .pushmenu ul li ul li:hover ul li a {
+         border-left: 0px;
+         border-right: 0px;
+         border-bottom: 0px;
+     }
+     .pushmenu ul li ul li ul {
+         opacity: 1;
+         visibility: hidden;
+         display: none !important;
+     }
+     .pushmenu ul li:hover ul li:first-child a {
+         border-top: 0px;
+     }
+     .pushmenu ul li ul li:hover ul {
+         display: block !important;
+         opacity: 1;
+         visibility: visible;
+     }
+     .pushmenu ul li:hover ul {
+         display: block;
+         opacity: 1;
+         visibility: visible;
+     }
+     .pushmenu ul li ul li:hover {} .pushmenu ul li:hover ul {
+         display: block;
+         opacity: 1;
+         visibility: visible;
+     }
+     .pushmenu ul li ul li:hover ul {
+         display: block !important;
+         opacity: 1;
+         visibility: visible;
+     }
+     .darkHeader ul li a {
+         color: #3c2800;
+     }
+     header.animateIt {
+         position: fixed;
+         top: -194px;
+         left: 0;
+         background-color: rgb(0 0 0 / 90%);
+         right: 0;
+         z-index: 2;
+         transition: 0.5s top cubic-bezier(.3, .73, .3, .74);
+         /* -webkit-box-shadow: 1px 2px 8px 0px rgba(230, 222, 222, 0.75); */
+         -moz-box-shadow:1px 2px 8px 0px rgba(230, 222, 222, 0.75);
+         /* box-shadow: 1px 2px 8px 0px rgba(230, 222, 222, 0.75); */
+     }
+     body.down header.animateIt {
+         top: 0;
+     }
+     .drop_down_menu {
+         background-image: url(/web/20200909175801im_/http://protxx.com/images/arrow_icon.png);
+         background-repeat: no-repeat;
+         background-position: 100% 43%;
+         margin-right: 5px;
+     }
+     .drop_down_menu:hover {
+         background-image: url(/web/20200909175801im_/http://protxx.com/images/hover_arrow_icon.png);
+     }
+     .animateIt img {
+         width:74px;
+     }
+    
+    
+ }
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .pushmenu ul li a {
+         margin: 0px 6px !important;
+     }
+     .pushmenu ul li a {
+         font-size: 13px;
+     }
+     .pushmenu ul li ul {
+         top: 53px;
+         left: 6px;
+     }
+     .pushmenu ul li ul li a {
+         font-size: 13px;
+     }
+     .pushmenu ul li a {
+         text-align: left;
+     }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+     .pushmenu ul li a {
+         padding: 15px 11px;
+         font-size: 13px;
+     }
+     .pushmenu ul li ul {
+         top: 48px;
+     }
+     .sticky .menu .pushmenu ul li a {
+         padding: 15px 26px;
+     }
+     .sticky .menu .pushmenu ul li ul li a {
+         padding: 10px 10px;
+     }
+     .sticky .menu .pushmenu ul li ul {
+         top: 48px;
+     }
+     .pushmenu ul li a {
+         text-align: left;
+     }
+ 
+ }
+ @media (max-width: 1199px) {
+     .pushmenu ul li {
+         padding: 10px 0px;
+     }
+     .drop_down_menu ul,
+     .drop_down_menu_sub ul {
+         display: none;
+     }
+     .drop_down_menu_1 ul {
+         display: none;
+     }
+     .drop_down_menu:after,
+     .drop_down_menu_sub:after {
+         cursor: pointer;
+         content: "\f067";
+         font-family: "Font Awesome 5 Pro";
+         font-style: normal;
+         font-weight: normal;
+         text-decoration: inherit;
+         color: #fff;
+         position:absolute;
+         font-size: 22px;
+         right: 10px;
+         top: 5px;
+     }
+     .pushmenu {
+         background-color: #f31e33;
+         width: 300px;
+         height: 100%;
+         top: 0;
+         z-index: 1000;
+         margin: 0px;
+         position: fixed;
+     }
+     .pushmenu-left {
+         right: -300px;
+     }
+     .pushmenu ul li {
+         display: block;
+     }
+     .pushmenu-left.pushmenu-open {
+         right: 0;
+     }
+     .pushmenu-push {
+         overflow-x: hidden;
+         position: relative;
+         right: 0;
+     }
+     .pushmenu-push-toright {
+         right: 300px;
+     }
+     /*Transition*/
+     
+     .pushmenu,
+     .pushmenu-push {
+         -webkit-transition: all 0.3s ease;
+         -moz-transition: all 0.3s ease;
+         transition: all 0.3s ease;
+     }
+     .buttonset {
+         position: relative;
+     }
+     #nav_list:before {
+         cursor: pointer;
+         height: 42px;
+         width: 42px;
+         text-indent: -99999em;
+         content: "\f0c9";
+         font-family: "Font Awesome 5 Pro";
+         font-style: normal;
+         font-weight: normal;
+         text-decoration: inherit;
+         color: #ffffff;
+         font-size: 29px;
+         top: 10px;
+         left: 0;
+     }
+     .drop_down_menu_1 ul {
+         padding-left: 30px !important;
+     }
+     .pushmenu ul li ul {
+         position: inherit !important;
+         width: inherit;
+         visibility: inherit;
+         opacity: inherit;
+         top: inherit;
+     }
+     .pushmenu ul {
+         text-align: left;
+     }
+     .pushmenu ul li a {
+         font-size: 12px;
+         padding: 10px 10px;
+         display: block;
+         color: #fff;
+     }
+     .pushmenu ul li {
+         padding: 0px;
+     }
+     .pushmenu ul li ul li {
+         padding: 0px;
+     }
+     .pushmenu ul li ul li a {
+         padding-left: 29px;
+     }
+     .pushmenu ul li ul li ul li a {
+         padding-left: 35px;
+     }
+     .pushmenu ul {
+         padding: 0px;
+     }
+     .pushmenu ul li:hover ul {
+         display: none;
+     }
+     .pushmenu ul li ul li ul {
+         left: 0px;
+         width: inherit;
+     }
+     .pushmenu ul li {
+         float: none;
+         text-align: left;
+     }
+     .pushmenu ul li ul li ul {
+         opacity: 1;
+         visibility: visible;
+     }
+     .pushmenu {
+         overflow-y: auto;
+     }
+     .buttonset .active:before {
+ 
+         content: "\f00d" !important;
+         font-family: "Font Awesome 5 Pro";
+         font-style: normal;
+         font-weight: normal;
+         text-decoration: inherit;
+         color: #000;
+         font-size: 29px;
+         top: 10px;
+         left: 0;
+     }
+     .drop_down_menu_arrow {
+         background-image: url(/web/20200909175801im_/http://protxx.com/images/drop_down_menu_arrow.png) !important;
+         background-repeat: no-repeat;
+     }
+     .buttonset {
+         position: absolute;
+         top: 31px;
+         z-index: 999;
+     }
+     .buttonset {
+         right: 22px;
+     }
+     .pushmenu ul li ul li {
+         background-color: #fff;
+     }
+     .pushmenu ul li ul li a {
+         color: #000;
+     }
+     .pushmenu-push-toright #nav_list {
+         /*margin-top: 5px;*/
+     }
+     .pushmenu ul li ul li a {
+         display: block;
+     }
+     .nav-main .nav-container ul li {
+         border-bottom: 1px solid #e59037;
+     }
+     .has-sub-nav {
+         background-image: url(/web/20200909175801im_/http://protxx.com/images/mobile_submenu.png);
+         background-repeat: no-repeat;
+         background-position: right 10px;
+     }
+     .menu ul li.drop_down_menu,
+     .menu ul li.drop_down_menu_sub {
+         background: url(/web/20200909175801im_/http://protxx.com/images/mobile_submenu_active.png) 90% 20px no-repeat;
+     }
+     .drop_down_menu > a,
+     .drop_down_menu_sub > a {
+         width: 86%;
+     }
+     .pushmenu ul li a {
+         margin: 0px;
+     }
+     .pushmenu ul li:hover a {
+         border-bottom: 0px;
+     }
+     .pushmenu ul li.active a {
+         border-bottom: 0px;
+     }
+     .pushmenu ul li a {
+         border-bottom: 0px;
+     }
+     .pushmenu ul li {
+         border-bottom: 1px solid #fff;
+     }
+     .pushmenu ul li ul {
+         left: 0px;
+     }
+     .menu .drop_down_menu ul,
+     .menu .drop_down_menu_sub ul {
+         background-color: #0075c0;
+     }
+     .pushmenu ul li ul li a {
+         font-size: 11px;
+     }
+     .pushmenu ul li ul li {
+         border-top: 0px;
+         border-left: 0px;
+     }
+     .pushmenu ul li ul li {
+         background-color: #000000;
+     }
+     .pushmenu ul li ul li a {
+         background-color: #8cc63e;
+     }
+     .open:after {
+         content: "\f068" !important;
+     }
+     nav {
+         margin-top: 0px;
+     }
+     .animateIt {
+         display: none;
+     }
+      .pushmenu ul li ul li {
+     margin-top: 1px;
+ }
+ .buttonset {top: 6px;}
+ }
+ @media (max-width: 767px) {
+     .buttonset {
+         right: 15px;
+         /* top:16px; */
+     }
+ }
+ @media (max-width: 480px) {
+     .pushmenu ul li a {
+         text-align: left;
+     }
+     nav {
+         margin-top: 0;
+     }
+     #nav_list {
+         width: 31px;
+     }
+ }
+ /*media query end*/
+ 

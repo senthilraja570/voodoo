@@ -1,0 +1,327 @@
+/* fonts begin */
+@font-face {
+    font-family: 'Futura Std';
+    src: url('../fonts/FuturaStd-Book.woff2') format('woff2'),
+        url('../fonts/FuturaStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gloss And Bloom';
+    src: url('../fonts/GlossAndBloom.woff2') format('woff2'),
+        url('../fonts/GlossAndBloom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h5 {
+    font-size: 45px;
+    font-family: 'Gloss And Bloom';
+}
+
+/* fonts end */
+body {
+    font-family: 'Futura Std';
+}
+.site_btn {
+    background-color: #ec0000;
+    display: inline-block;
+    color:#ffffff;
+    border-radius: 4px;
+    padding:10px 15px;
+}
+.site_btn:hover {
+    background-color:#ffffff;
+    color:#ec0000;
+}
+.pushmenu ul li:hover a.site_btn span {
+    color:#ec0000;
+}
+.site_btn:hover span {
+    border:0px !important;
+}
+/* haeder begin */
+.logo img {
+    width:130px;
+}
+/* header end */
+/* main banner begin */
+.main_banner {
+    top: 0px;
+}
+.default_menu {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.banner_content {
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.banner_content h1 {
+    font-family: 'Gloss And Bloom';
+    color: #ebebf9;
+    font-size: 58px;
+    line-height:80px;
+    margin-bottom:0px;
+}
+.line {
+    height:5px;
+    background-color:#d4cda0;
+    display: block;
+}
+.banner_content h2 {
+    font-size:40px;
+    font-family: 'Futura Std';
+    color: #ebebf9;
+}
+.banner_content a {
+    min-width: 140px;
+    text-decoration: none;
+}
+a.site_btn.first_btn {
+    background-color: #ffffff;
+    color: #ee0000;
+}
+a.site_btn.first_btn:hover {
+    background-color: #ee0000;
+    color: #ffffff;
+}
+/* main banner end */
+/*dark section begin*/
+.dark_section {
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 150px;
+}
+.dark_section h4 {
+    color:#ffffff;
+}
+.second_h4 h4 {
+    color:#d4cda0;
+}
+/*dark section end*/
+/*timer begin*/
+.timer-wrapper {
+    flex: 1 0 0%;
+}
+.main_timer {
+    background-color: #ec0000;
+    color: #ffffff;
+    border-radius:4px;
+    margin-top: -100px;
+}
+.main_timer h3 {
+    font-family: 'Gloss And Bloom';
+    color: #000000;
+}
+.time {
+    font-size:65px;
+}
+.text {
+    margin-top:-10px;
+    display:block;
+}
+.center_dot {
+    display:block;
+    margin-top:10px;
+    color: #000000;
+    font-size: 60px;
+}
+/*timer end*/
+/*sponsors begin*/
+.desktop_sponsor li {
+    display: inline-block;
+    padding: 20px 25px;
+}
+.sponsors_area .line {
+    background-color: #ec0000;
+}
+ .swiper-container {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      @media (max-width: 760px) {
+        .swiper-button-next {
+          right: 20px;
+          transform: rotate(360deg);
+        }
+
+        .swiper-button-prev {
+          left: 20px;
+          transform: rotate(360deg);
+        }
+      }
+/*sponsors end*/
+/*event schedule begin*/
+.schedule_area {
+    background-image: url(../images/event-schedule.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 700px;
+    position: relative;
+}
+.schedule_area:after {
+    content: '';
+    position: absolute;
+    background-color: rgb(212 205 160 / 90%);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.schedule_area .position-relative {
+    z-index: 1;
+}
+.schedule_area h5 {
+    color: #ffffff;
+}
+.schedule_area #horizontalTab li {
+    font-size: 30px;
+}
+.schedule_area #horizontalTab li,.schedule_area #horizontalTab li span {
+    color: #000000;
+
+}
+.schedule_area #horizontalTab li span {
+    font-size: 15px;
+}
+.resp-tabs-list {
+    background-color: #d4cda0;
+}
+.resp-tabs-list li {
+    min-width: 300px;
+}
+.custom_round_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.data_style h3 {
+    font-size: 17px;
+}
+.data_style h4 {
+    font-size: 25px;
+    color: #ec0000;
+}
+.data_style {
+    color: #222222;
+    font-size: 16px;
+}
+.border-bottom:last-child {
+    border: 0px !important;
+}
+/*event schedule end*/
+/*reserve your ticket begin*/
+.reserve_area {
+    background-color: #111111;
+    padding-bottom: 100px;
+}
+.reserve_area h5 {
+    color: #ffffff;
+}
+.plan_title h3 {
+    margin-bottom: 0px;
+}
+.plan_list {
+    background-color: #ffffff;
+}
+.plan_title {
+    background-color: #eb0000;
+    color: #ffffff;
+    padding: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 22px;
+}
+.plan_price h4 {
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.plan_list .fas {
+    font-size: 20px;
+}
+.plan_list .fa-check-circle {
+    color: #eb0000;
+    position: relative;
+    top: 3px;
+}
+.plan_price .site_btn {
+    text-decoration: none;
+    min-width: 225px;
+}
+.first_plan .plan_title {
+    background-color: #d4cda0;
+    color: #111111;
+}
+.first_plan .plan_list .fa-check-circle {
+    color: #d4cda0;
+}
+.first_plan .plan_list .fa-times-circle {
+    color: #cc3333;
+}
+.first_plan .plan_price .site_btn {
+    background-color: #d4cda0;
+}
+.first_plan .plan_price .site_btn:hover {
+    background-color: #ec0000;
+    color: #ffffff;
+}
+.second_plan .plan_price .site_btn:hover {
+    background-color: #d4cda0;
+    color: #ffffff;
+}
+/*reserve your ticket end*/
+/*footer begin*/
+.footer_menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+.footer_menu li a {
+    color: #eb0000;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+.footer_menu li a:after {
+    content: "\f715";
+    font-family: "Font Awesome 5 Pro";
+    transform: rotate(45deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+    display: inline-block;
+    right: -10px;
+    position: relative;
+    color: #222222;
+}
+.footer_menu li:last-child a:after{
+    display: none;
+}
+/*footer end*/
