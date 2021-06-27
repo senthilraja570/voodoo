@@ -405,7 +405,7 @@ a.site_btn.first_btn:hover {
         height: 400px;
         object-fit: cover;
     }
-    .sponsors_area .swiper-button-next, .sponsors_area  .swiper-button-prev {
+    .sponsors_area .swiper-button-next,.sponsors_area  .swiper-button-prev {
         color: #ec0000;
     }
     .schedule_area {
@@ -447,4 +447,7 @@ a.site_btn.first_btn:hover {
 }
 .text {margin-top: -5px; font-size: 10px;}
 .center_dot {font-size: 20px;}
+.sponsors_area .swiper-button-next,.sponsors_area  .swiper-button-prev {
+        color: #ec0000;
+    }
 }
