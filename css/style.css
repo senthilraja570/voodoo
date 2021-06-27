@@ -418,8 +418,8 @@ a.site_btn.first_btn:hover {
         object-fit: cover;
     }
     .banner_content h1 {
-        font-size: 22px;
-        line-height: 38px;
+        font-size: 15px;
+        line-height: 30px;
     }
     .logo img {
         width: 73px;
@@ -428,7 +428,7 @@ a.site_btn.first_btn:hover {
         top: 30%;
     }
     .banner_content h2 {
-        font-size: 23px;
+        font-size: 16px;
     }
     .banner_content a {
         min-width: 118px
@@ -436,6 +436,11 @@ a.site_btn.first_btn:hover {
     .schedule_area {
         min-height: 340px;
     }
-
+    .banner_content {
+        width: 75%;
+    }
+    body {
+        font-size: 14px;
+    }
 
 }
