@@ -443,8 +443,8 @@ a.site_btn.first_btn:hover {
         font-size: 14px;
     }
     .time {
-    font-size:40px;
+    font-size:20px;
 }
-.text {margin-top: -5px;}
-.center_dot {font-size: 30px;}
+.text {margin-top: -5px; font-size: 10px;}
+.center_dot {font-size: 20px;}
 }
