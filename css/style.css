@@ -407,6 +407,7 @@ a.site_btn.first_btn:hover {
     }
     .sponsors_area .swiper-button-next,.sponsors_area  .swiper-button-prev {
         color: #ec0000;
+        outline: none;
     }
     .schedule_area {
         min-height: 400px;
@@ -449,5 +450,6 @@ a.site_btn.first_btn:hover {
 .center_dot {font-size: 20px;}
 .sponsors_area .swiper-button-next,.sponsors_area  .swiper-button-prev {
         color: #ec0000;
+        outline: none;
     }
 }
