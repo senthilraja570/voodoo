@@ -425,7 +425,7 @@ a.site_btn.first_btn:hover {
         width: 73px;
     }
     .banner_content {
-        top: 30%;
+        top: 33%;
     }
     .banner_content h2 {
         font-size: 16px;
@@ -442,5 +442,9 @@ a.site_btn.first_btn:hover {
     body {
         font-size: 14px;
     }
-
+    .time {
+    font-size:40px;
+}
+.text {margin-top: -5px;}
+.center_dot {font-size: 30px;}
 }
