@@ -416,8 +416,8 @@ a.site_btn.first_btn:hover {
         object-fit: cover;
     }
     .banner_content h1 {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 26px;
+        line-height: 38px;
     }
     .logo img {
         width: 73px;
@@ -435,7 +435,7 @@ a.site_btn.first_btn:hover {
         min-height: 340px;
     }
     .banner_content {
-        width: 75%;
+        width: 90%;
     }
     body {
         font-size: 14px;
