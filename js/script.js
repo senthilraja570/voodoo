@@ -15,18 +15,19 @@ jQuery(document).ready(function(e) {
   //   event.preventDefault();
   //   jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-50}, 500);
   // });
-  jQuery('header li a[href^=#], .ftr_menu a[href^=#]').on('click', function(event){
+  jQuery('header li a[href^=\\#]').on('click', function(event){
     event.preventDefault();
+    var header_height = $('body header').height();    
     
     var width = $(window).width(); 
     var height = $(window).height();    
     
     if ((width >= 1280) && (height>=1024)) {
-      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-59}, 500);
+      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-header_height}, 500);
     }else if ((width >= 1024  ) && (height>=768)){
-      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-59}, 500);
+      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-header_height}, 500);
     }else if ((width >= 800) && (height>=600)){
-      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-59}, 500);
+      jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top-header_height}, 500);
     }else{
       jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top}, 500);
     }
@@ -37,7 +38,7 @@ jQuery(document).ready(function(e) {
 
 // Cache selectors
     var topMenu = jQuery(".animateIt #top-menu"),
-    topMenuHeight = topMenu.outerHeight()+15,
+    topMenuHeight = jQuery('header').outerHeight()+15,
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items

@@ -1,7 +1,6 @@
 
 
-ul.resp-tabs-list,
-p {
+ul.resp-tabs-list{
   margin: 0px;
   padding: 0px;
 }
@@ -129,7 +128,7 @@ h2.resp-tab-active span.resp-arrow {
 
 /*-----------Accordion styles-----------*/
 
-h2.resp-tab-active { background: #DBDBDB !important; }
+h2.resp-tab-active { background: #111111 !important; }
 
 .resp-easy-accordion h2.resp-accordion { display: block; }
 
@@ -150,7 +149,10 @@ h2.resp-accordion:first-child { border-top: 1px solid #c1c1c1 !important; }
 
 ul.resp-tabs-list { display: none; }
 
-h2.resp-accordion { display: block; }
+h2.resp-accordion {display: block;font-size: 22px;background-color: #ffffff;}
+h2.resp-accordion span {
+  font-size: 15px;
+}
 
 .resp-vtabs .resp-tab-content { border: 1px solid #C1C1C1; }
 

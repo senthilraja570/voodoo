@@ -3,8 +3,6 @@
     font-family: 'Futura Std';
  }
  .pushmenu ul {
-     /* display: inline; */
-     
      margin: 0;
      padding: 0px;
      list-style: none;
@@ -115,47 +113,9 @@
  .pushmenu ul li ul li a:hover {
      color: #fff !important
  }
- .ie8 .pushmenu ul li a.active {
-     color: #a0a0a0;
- }
- .ie8 .pushmenu ul li ul li ul {
-     opacity: 1;
-     visibility: hidden;
-     display: none !important;
- }
- .ie8 .pushmenu ul li ul li a:hover {
-     color: #0c0c22;
- }
- .ie8 .pushmenu ul li ul li:hover ul {
-     display: block !important;
-     opacity: 1;
-     visibility: visible;
- }
- .ie8 .pushmenu ul li:hover ul {
-     display: block;
-     opacity: 1;
-     visibility: visible;
- }
- .ie8 .pushmenu ul li:hover ul {
-     display: block;
-     opacity: 1;
-     visibility: visible;
- }
- .ie8 .pushmenu ul li ul li:hover ul {
-     display: block !important;
-     opacity: 1;
-     visibility: visible;
- }
- .get_btn a {
-     color: #7f8c9b !important;
- }
- .get_btn a {
-     padding-right: 0px !important;
-     margin-right: 0px !important;
- }
  /*media query begin*/
  
- @media screen and (min-width: 1199px) {
+ @media screen and (min-width: 768px) {
      .pushmenu ul li.active a span,
      nav .pushmenu ul li.current-menu-item a span {
          color: #ffffff;
@@ -218,13 +178,13 @@
          top: 0;
      }
      .drop_down_menu {
-         background-image: url(/web/20200909175801im_/http://protxx.com/images/arrow_icon.png);
+         background-image: url(../images/arrow_icon.png);
          background-repeat: no-repeat;
          background-position: 100% 43%;
          margin-right: 5px;
      }
      .drop_down_menu:hover {
-         background-image: url(/web/20200909175801im_/http://protxx.com/images/hover_arrow_icon.png);
+         background-image: url(../images/hover_arrow_icon.png);
      }
      .animateIt img {
          width:74px;
@@ -234,7 +194,7 @@
  }
  @media (min-width: 992px) and (max-width: 1199px) {
      .pushmenu ul li a {
-         margin: 0px 6px !important;
+        padding: 10px 12px;
      }
      .pushmenu ul li a {
          font-size: 13px;
@@ -252,8 +212,8 @@
  }
  @media (min-width: 768px) and (max-width: 991px) {
      .pushmenu ul li a {
-         padding: 15px 11px;
-         font-size: 13px;
+         padding: 5px 5px;
+         font-size: 12px;
      }
      .pushmenu ul li ul {
          top: 48px;
@@ -272,7 +232,7 @@
      }
  
  }
- @media (max-width: 1199px) {
+ @media (max-width: 768px) {
      .pushmenu ul li {
          padding: 10px 0px;
      }
@@ -298,7 +258,7 @@
          top: 5px;
      }
      .pushmenu {
-         background-color: #f31e33;
+         background-color: #ec0000;
          width: 300px;
          height: 100%;
          top: 0;
@@ -414,7 +374,7 @@
          left: 0;
      }
      .drop_down_menu_arrow {
-         background-image: url(/web/20200909175801im_/http://protxx.com/images/drop_down_menu_arrow.png) !important;
+         background-image: url(../images/drop_down_menu_arrow.png) !important;
          background-repeat: no-repeat;
      }
      .buttonset {
@@ -441,13 +401,13 @@
          border-bottom: 1px solid #e59037;
      }
      .has-sub-nav {
-         background-image: url(/web/20200909175801im_/http://protxx.com/images/mobile_submenu.png);
+         background-image: url(../images/mobile_submenu.png);
          background-repeat: no-repeat;
          background-position: right 10px;
      }
      .menu ul li.drop_down_menu,
      .menu ul li.drop_down_menu_sub {
-         background: url(/web/20200909175801im_/http://protxx.com/images/mobile_submenu_active.png) 90% 20px no-repeat;
+         background: url(../images/mobile_submenu_active.png) 90% 20px no-repeat;
      }
      .drop_down_menu > a,
      .drop_down_menu_sub > a {
@@ -500,7 +460,7 @@
       .pushmenu ul li ul li {
      margin-top: 1px;
  }
- .buttonset {top: 6px;}
+ .buttonset {top: 34px;}
  }
  @media (max-width: 767px) {
      .buttonset {

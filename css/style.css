@@ -19,7 +19,9 @@ h5 {
     font-size: 45px;
     font-family: 'Gloss And Bloom';
 }
-
+html, body {
+    height: 100%;
+}
 /* fonts end */
 body {
     font-family: 'Futura Std';
@@ -123,7 +125,7 @@ a.site_btn.first_btn:hover {
     font-size:65px;
 }
 .text {
-    margin-top:-10px;
+    margin-top:-18px;
     display:block;
 }
 .center_dot {
@@ -202,7 +204,7 @@ a.site_btn.first_btn:hover {
     color: #ffffff;
 }
 .schedule_area #horizontalTab li {
-    font-size: 30px;
+    font-size: 24px;
 }
 .schedule_area #horizontalTab li,.schedule_area #horizontalTab li span {
     color: #000000;
@@ -218,8 +220,8 @@ a.site_btn.first_btn:hover {
     min-width: 300px;
 }
 .custom_round_img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
 }
 .data_style h3 {
@@ -233,8 +235,11 @@ a.site_btn.first_btn:hover {
     color: #222222;
     font-size: 16px;
 }
-.border-bottom:last-child {
+#top .border-bottom:last-child {
     border: 0px !important;
+}
+#top .border-bottom {
+    border-bottom: 1px solid #cccccc !important;
 }
 /*event schedule end*/
 /*reserve your ticket begin*/
@@ -310,7 +315,7 @@ a.site_btn.first_btn:hover {
     position: relative;
 }
 .footer_menu li a:hover {
-    color: #d4cda0;
+    color: #000000;
 }
 .footer_menu li a:after {
     content: "\f715";
@@ -328,3 +333,109 @@ a.site_btn.first_btn:hover {
     display: none;
 }
 /*footer end*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .banner_content h1 {
+        font-size: 40px;
+        line-height: 53px;
+    }
+    .banner_content h2 {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .banner_content h1 {
+        font-size: 31px;
+        line-height: 43px;
+    }
+    .banner_content h2 {
+        font-size: 27px;
+    }
+    .banner_content {
+        top: 47%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo img {
+        width: 82px;
+    }
+    .banner_content h1 {
+     font-size: 27px;
+     line-height: 41px;
+    }
+    .banner_content {
+        top: 40%;
+    }
+    .banner_content h2 {
+        font-size: 28px;
+    }
+    .banner_content  img {
+        width: 25px;
+    }
+    .banner_content {
+        top: 35%;
+    }
+    .resp-tabs-list li {
+        min-width: inherit;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .logo img {
+        width: 82px;
+    }
+    .banner_content h1 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .banner_content {
+        top: 30%;
+    }
+    .banner_content h2 {
+        font-size: 24px;
+    }
+    .banner_content a {
+        min-width: 118px
+    }
+     .banner_content  img {
+        width: 25px;
+    }
+    .main_banner {
+        height: 400px;
+        object-fit: cover;
+    }
+    .sponsors_area .swiper-button-next, .sponsors_area  .swiper-button-prev {
+        color: #ec0000;
+    }
+    .schedule_area {
+        min-height: 400px;
+    }
+}
+@media (max-width: 576px) {
+    .main_banner {
+        height: 400px;
+        object-fit: cover;
+    }
+    .banner_content h1 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .logo img {
+        width: 73px;
+    }
+    .banner_content {
+        top: 30%;
+    }
+    .banner_content h2 {
+        font-size: 23px;
+    }
+    .banner_content a {
+        min-width: 118px
+    }
+    .schedule_area {
+        min-height: 340px;
+    }
+
+
+}
