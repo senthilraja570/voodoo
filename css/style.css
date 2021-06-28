@@ -349,7 +349,7 @@ a.site_btn.first_btn:hover {
         font-size: 27px;
     }
     .banner_content {
-        top: 47%;
+        top: 50%;
     }
 
 }
@@ -362,7 +362,7 @@ a.site_btn.first_btn:hover {
      line-height: 41px;
     }
     .banner_content {
-        top: 40%;
+        top: 50%;
     }
     .banner_content h2 {
         font-size: 28px;
