@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 .banner_content {
-    top: 25%;
+    top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -349,7 +349,7 @@ a.site_btn.first_btn:hover {
         font-size: 27px;
     }
     .banner_content {
-        top: 50%;
+        top: 27%;
     }
 
 }
@@ -362,7 +362,7 @@ a.site_btn.first_btn:hover {
      line-height: 41px;
     }
     .banner_content {
-        top: 50%;
+        top: 27%;
     }
     .banner_content h2 {
         font-size: 28px;
