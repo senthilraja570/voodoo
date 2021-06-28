@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 .banner_content {
-    top: 60%;
+    top: 25%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
